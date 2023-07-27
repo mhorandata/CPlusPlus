@@ -4,8 +4,8 @@ using namespace std; //Instead of writing std::count << all the time you can mak
 int main()
 {
     //Before adding using namespace std; at the top:  std::cout << "Hello World!\n"; Now (notice that it starts with cout instead of std::cout <<
-   cout << "Hello World!\n"; //the \n" is a line Break. You can also do <<std::endl; to create a line break.
-   cout << "My name is Matthew" << std::endl; 
+   cout << "Hello World!\n"; //the \n" is a line Break. 
+   cout << "My name is Matthew" << std::endl; //You can also do << std::endl; to create a line break.
 
 
     system("pause>0");
